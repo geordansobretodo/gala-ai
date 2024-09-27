@@ -1,0 +1,151 @@
+/* General Styling */
+.hero-section {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    z-index: 10; /* Ensures it's above the image carousel */
+  }
+  
+  .hero-title {
+    position: absolute;
+    top: 15vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .hero-subtitle {
+    position: absolute;
+    top: 20vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .hero-button {
+    position: absolute;
+    top: 25vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .custom-button {
+    background-color: #ff5733; /* You can choose a custom color */
+    border-radius: 8px;
+  }
+  
+  /* Swiper Carousel */
+  .carousel-container {
+    position: relative;
+    z-index: 1; /* Places it behind the hero section */
+  }
+  
+  .carousel-image {
+    width: 90vw;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Section Headers */
+  .section-header {
+    padding-left: 5%;
+  }
+  
+  /* Feedback Section */
+  .feedback-container {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 5%;
+  }
+  
+  /* About Us Section */
+    .gradient {
+        background: linear-gradient(to bottom, white, #E9E08F);
+    }
+
+  .about-us-content {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 16px;
+  }
+  
+  .about-facility-image {
+    padding-right: 20px;
+    min-width: 300px;
+    border-radius: 8px;
+  }
+  
+  /* Login Modal */
+  .login-modal-content {
+    text-align: center;
+  }
+  
+  .social-login-options {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Adjusting the position of the or continue with text */
+  .login-modal-content > div {
+    margin-bottom: 10px; /* Space between text and social icons */
+  }
+  
+  .terms-text {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .login-button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+  }
+  
+  .social-login-options img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .terms-text a {
+    text-decoration: underline;
+    color: #007bff;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    color: black;
+    padding-right: 15px;
+  }
+  
+  /* Toolbar Header */
+  .toolbar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+/* @media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar {
+      display: none; 
+    }
+  } */
+  
+  
